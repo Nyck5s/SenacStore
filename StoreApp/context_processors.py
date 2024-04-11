@@ -1,6 +1,6 @@
 from StoreApp.models import Departamento
 
-def lista_departamentos(request):
+def listar_departamentos(request):
     departamentos = Departamento.objects.all()
     
     context = {
