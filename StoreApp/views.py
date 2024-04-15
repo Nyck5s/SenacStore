@@ -53,5 +53,5 @@ def cadastro(request):
     context = {
         'formulario_cadastro' : formulario
     }
-    return render(request, 'cadastro.html')
+    return render(request, 'cadastro.html', context)
 
